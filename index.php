@@ -19,9 +19,10 @@
             $connection->query("INSERT INTO `users` (`first_name`, `last_name`, `email`, `password`) VALUES ('$name', '$surname', '$mail', '$password');");
             echo "Hello, ".$name;
              } else {
-            echo "Пользователь с таким E-mail  уже существует в базе";
+            echo "Пользователь с таким E-mail  уже существует в базе ";
         }
     }
+
     ?>
 
     <html>
